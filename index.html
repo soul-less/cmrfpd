@@ -5,9 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>
-Página Inicial 
-| CMRFPD</title>
+    <title>Página Inicial | CMRFPD</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -43,7 +41,7 @@ Página Inicial
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Carregando</span>
+            <img src="./assets/img/logo.jpg" alt=""  height='70'>
         </div>
     </div>
     <!-- Spinner End -->
@@ -91,13 +89,15 @@ Página Inicial
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a href="sobre.html" class="dropdown-item">Quem somos</a>
                     <a href="funcionarios.html" class="dropdown-item">Funcionários</a>
+                    <a href="servicos.html" class="dropdown-item">Serviços</a>
                     <a href="404.html" class="dropdown-item">Dados estatísticos</a>
                 </div>
             </div>
-            <a href="servicos.html" class="nav-item nav-link">Serviços</a>
+
+            <a href="galeria.html" class="nav-item nav-link">Galeria</a>
             <a href="404.html" class="nav-item nav-link">Notícias</a>
           
-            <a href="contactos.html" class="nav-item nav-link">Contactos</a>
+            <a href="contacto.html" class="nav-item nav-link">Contactos</a>
         </div>
     </div>
 </nav>
@@ -164,20 +164,19 @@ Página Inicial
         <div class="row g-5">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="d-flex flex-column">
-                    <video autoplay loop muted class="img-fluid rounded w-75 align-self-end" >
+                    <video autoplay loop muted class="img-fluid rounded w-100" >
                         <source src="./assets/video/intro.mp4" type="video/mp4" >
                         <!-- Adicione mais sources para diferentes formatos de vídeo, se necessário -->
                         
                     </video>
-                    <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="./assets/img/centro.jpg" alt="" style="margin-top: -25%;">
+                    
                 </div>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <a href="sobre.html" class="d-inline-block border rounded-pill py-1 px-4 mb-4">Quem Somos</a>
+                <a href="sobre.html" class="d-inline-block btn btn-primary border rounded-pill py-1 px-4 mb-4">Quem Somos <i class="fa fa-arrow-right"></i></a>
                 <h1 class="mb-4">Centro de Medicina e Reabilitação Física Princesa Diana</h1>
                 <p>O CMRFPD é uma unidade hospitalar de nível secundário, especializada em Medicina Física e Reabilitação da rede hospitalar provincial, integrada no Sistema Nacional de Saúde. Vocacionado para a prestação de cuidados de saúde às pessoas portadoras de deficiência e não só.</p>
                 
-                <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="sobre.html">Saber Mais</a>
             </div>
         </div>
         <!-- Service Start -->
@@ -244,7 +243,7 @@ Página Inicial
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-            <a href="servicos.html" class="d-inline-block border rounded-pill py-1 px-4 mb-4">Serviços</a>
+            <span class="d-inline-block border rounded-pill py-1 px-4 mb-4">Serviços</span>
             <h1>Nossas Soluções de Cuidados de Saúde</h1>
         </div>
         <div class="row g-4">
@@ -310,7 +309,7 @@ Página Inicial
             </div>
         </div>
         <div class="text-center mx-auto wow fadeInUp mt-5" data-wow-delay="1.5s">
-            <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="servicos.html">Mais Serviços</a>
+            <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="servicos.html">Mais Serviços <i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
@@ -481,6 +480,7 @@ Página Inicial
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Links Rápidos</h5>
                 <a class="btn btn-link" href="">Sobre Nós</a>
+  <a class="btn btn-link" href="galeria.html">Galeria</a>
                 <a class="btn btn-link" href="">Contactos</a>
                 <a class="btn btn-link" href="">Serviços</a>
                 <a class="btn btn-link" href="">Quem somos</a>
@@ -498,13 +498,9 @@ Página Inicial
     </div>
     <div class="container">
         <div class="copyright">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="cmrfpd.ao">Centro de Medicina e de Reabilitação Física Princesa Diana</a>, Todos Direitos Reservados.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Desenvolvido por <a class="border-bottom" href="mulemba.ao">Mulemba Digital</a>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-bold text-center" href="cmrfpd.ao">Centro de Medicina e de Reabilitação Física Princesa Diana</a>, Todos Direitos Reservados.
                 </div>
             </div>
         </div>
@@ -531,6 +527,9 @@ Página Inicial
 
     <!-- Template Javascript -->
     <script src="./assets/js/main.js"></script>
+    
+    
+    
 </body>
 
 </html>
