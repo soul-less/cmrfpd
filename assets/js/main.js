@@ -58,7 +58,7 @@
 
     // Header carousel
     $(".header-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         animateOut: 'fadeOutLeft',
         items: 1,
         dots: true,
